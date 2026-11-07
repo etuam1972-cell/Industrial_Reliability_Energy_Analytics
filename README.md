@@ -1,55 +1,63 @@
-Projeto acadêmico com dados sintéticos – base gerada por IA generativa
+# 🏭 INDUSTRIAL ANALYTICS
+### 📊 Integração entre Manutenção, Confiabilidade, Produção, Energia e Processo
 
-Desenvolvi uma análise para investigar os fatores associados ao consumo energético de uma linha industrial.
-Foram utilizadas variáveis como:
+<text>**Projeto acadêmico | Dados sintéticos gerados por IA generativa**</text>
 
-•	Turno;
-•	Temperatura de processo;
-•	Pressão de processo;
-•	Corrente;
-•	Velocidade;
-•	Carga;
-•	Velocidade;
-•	Vibração;
-•	Volume produzido; 
-•	Horas de operação; 
-•	Performance; 
-•	Disponibilidade; 
-•	Uso e consumo de energia; 
-•	Perdas;
-•	Custos 
+**Data Analytics | Industrial Analytics | Maintenance | Reliability | Energy | Business Intelligence**
 
-Data Analytics | Industrial Analytics | Maintenance | Energy | BI
+---
 
-Projeto de portfólio para conectar manutenção, confiabilidade, produção, energia, processo, perdas e causa raiz.
+## 🎯 Objetivo do Projeto
 
-Tabelas
-•	DIM_MAQUINA
-•	DIM_CAUSA_RAIZ
-•	FAT_MANUTENCAO
-•	FAT_PRODUCAO
-•	FAT_ENERGIA
-•	FAT_PROCESSO
-•	FAT_PERDAS
-•	FAT_ACAO_MELHORIA
+Desenvolver uma análise integrada de dados industriais para investigar os fatores associados ao desempenho operacional, à confiabilidade dos equipamentos, ao consumo energético e às perdas de produção.
 
-Objetivo
+O projeto utiliza uma base de dados sintética, gerada com auxílio de IA generativa, estruturada para simular cenários industriais e permitir a aplicação de técnicas de análise estatística, exploração de dados e visualização de indicadores.
 
-Investigar a cadeia: Falhas → MTBF → MTTR → Disponibilidade → Produção → Energia → Perdas → Causa raiz → Ação de melhoria.
-Apliquei regressão múltipla,  correlação de Pearson, avaliação de resíduos, formatação condicional com escalas de calor para destacar potenciais bons ou ruins a serem verificados, utilizei filtros e diversas tabelas dinâmicas  para estudo de variáveis do processo relacionando-as entre si.
+A proposta é conectar diferentes áreas da operação para compreender como falhas, condições de processo, disponibilidade e desempenho produtivo podem estar associados ao consumo de energia e aos custos industriais.
 
-Ferramentas utilizadas
+## ⚙️ Variáveis analisadas
 
-Excel / Power Pivot/ Power BI
+A base contempla variáveis operacionais, produtivas, energéticas e de manutenção:
 
-KPIs
+- 🔄 Turno de operação.
+- 🌡️ Temperatura de processo.
+- 💨 Pressão de processo.
+- ⚡ Corrente elétrica.
+- 🏎️ Velocidade operacional.
+- 🏋️ Carga do equipamento.
+- 📳 Vibração.
+- 📦 Volume produzido.
+- ⏱️ Horas de operação.
+- 📈 Performance.
+- 🟢 Disponibilidade.
+- 🔋 Uso e consumo de energia.
+- 📉 Perdas de produção.
+- 💰 Custos de manutenção e perdas.
 
-MTBF (Mean Time Between Failure), MTTR (Mean Time To Repair), MTTD (Mean Time to Detect), MTDA (Mean Time to Action), disponibilidade, OEE, produção, refugo, horas de parada, kWh, kWh/peça, custo de manutenção, custo de perdas e Pareto de causas.
+---
 
-Dashboards
+## 🗄️ Estrutura do Banco de Dados
 
-Criados 10 Dashboards em Excel com segmentação de dados e links de interligação entre os diversos Dashboards.
+O modelo foi organizado em tabelas dimensionais e tabelas fato, permitindo relacionar diferentes processos e indicadores industriais.
 
-Power BI
+### 📚 Tabelas dimensionais
 
-Criado um Power BI mostrando alguns outras dados graficamente com segmentação e filtros.
+- `DIM_MAQUINA` – Cadastro e identificação dos equipamentos.
+- `DIM_CAUSA_RAIZ` – Classificação das causas de falhas e ocorrências.
+
+### 📊 Tabelas fato
+
+- `FAT_MANUTENCAO` – Registros de falhas, intervenções e manutenção.
+- `FAT_PRODUCAO` – Volume produzido e indicadores produtivos.
+- `FAT_ENERGIA` – Consumo e indicadores de desempenho energético.
+- `FAT_PROCESSO` – Variáveis operacionais e condições do processo.
+- `FAT_PERDAS` – Refugos, perdas e impactos operacionais.
+- `FAT_ACAO_MELHORIA` – Ações corretivas, preventivas e oportunidades de melhoria.
+
+Essa estrutura permite explorar relacionamentos entre as tabelas e desenvolver análises integradas, evitando tratar cada indicador de forma isolada.
+
+---
+
+## 🔗 1. Integração entre Manutenção, Produção e Energia
+
+📌 **Objetivo
